@@ -70,7 +70,7 @@
                 },
                 {
                     "type": "git",
-                    "url": "git@gitlab.com:2009scape/Saradomin-Launcher.git",
+                    "url": "https://gitlab.com/2009scape/Saradomin-Launcher.git",
                     "commit": "413b62c4b0a5fdc81d7b3a680fc7296d695e0d82"
                 },
 
