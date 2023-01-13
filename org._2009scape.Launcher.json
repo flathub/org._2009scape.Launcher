@@ -7,13 +7,13 @@
     "separate-locales": false,
     "sdk-extensions": [
         "org.freedesktop.Sdk.Extension.openjdk11",
-        "org.freedesktop.Sdk.Extension.dotnet7"
+        "org.freedesktop.Sdk.Extension.dotnet6"
     ],
     "build-options": {
-        "append-path": "/usr/lib/sdk/dotnet7/bin",
-        "append-ld-library-path": "/usr/lib/sdk/dotnet7/lib",
+        "append-path": "/usr/lib/sdk/dotnet6/bin",
+        "append-ld-library-path": "/usr/lib/sdk/dotnet6/lib",
         "env": {
-            "PKG_CONFIG_PATH": "/app/lib/pkgconfig:/app/share/pkgconfig:/usr/lib/pkgconfig:/usr/share/pkgconfig:/usr/lib/sdk/dotnet7/lib/pkgconfig"
+            "PKG_CONFIG_PATH": "/app/lib/pkgconfig:/app/share/pkgconfig:/usr/lib/pkgconfig:/usr/share/pkgconfig:/usr/lib/sdk/dotnet6/lib/pkgconfig"
         }
     },
     "finish-args": [
@@ -49,13 +49,11 @@
                 }
             },
             "build-commands": [
-                "install.sh",
+                "install-sdk.sh",
                 "cd Saradomin",
-                "dotnet restore",
-                "cd Saradomin",
-                "dotnet publish --runtime ${RUNTIME} --self-contained -c Release -p:PublishTrimmed=false -p:PublishReadyToRun=true -p:PublishSingleFile=true -p:IncludeNativeLibrariesForSelfExtract=true",
+                "dotnet publish --runtime ${RUNTIME} -c Release --source nuget-sources",
             
-                "install -D bin/Release/net7.0/${RUNTIME}/Saradomin /app/bin/2009scape-launcher",
+                "install -D bin/Release/net6.0/${RUNTIME}/Saradomin /app/bin/2009scape-launcher",
                 "install -Dm644 Saradomin/Resources/Icons/saradomin.svg /app/share/icons/hicolor/scalable/apps/org._2009scape.Launcher.svg",
                 "install -Dm644 Saradomin/Resources/Linux/org._2009scape.Launcher.desktop /app/share/applications/org._2009scape.Launcher.desktop",
                 "install -Dm644 Saradomin/Resources/Linux/org._2009scape.Launcher.appdata.xml /app/share/metainfo/org._2009scape.Launcher.appdata.xml"
@@ -74,6 +72,9 @@
                     "commit": "413b62c4b0a5fdc81d7b3a680fc7296d695e0d82"
                 },
 
+
+                "saradomin-x64-sources.json",
+                "saradomin-arm64-sources.json",
 
                 {
                     "type": "file",
