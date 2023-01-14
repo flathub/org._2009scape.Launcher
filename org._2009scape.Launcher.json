@@ -53,7 +53,7 @@
                 "cd Saradomin",
                 "dotnet publish --runtime ${RUNTIME} -c Release --source nuget-sources",
             
-                "install -D bin/Release/net6.0/${RUNTIME}/Saradomin /app/bin/2009scape-launcher",
+                "install -D Saradomin/bin/Release/net6.0/${RUNTIME}/Saradomin /app/bin/2009scape-launcher",
                 "install -Dm644 Saradomin/Resources/Icons/saradomin.svg /app/share/icons/hicolor/scalable/apps/org._2009scape.Launcher.svg",
                 "install -Dm644 Saradomin/Resources/Linux/org._2009scape.Launcher.desktop /app/share/applications/org._2009scape.Launcher.desktop",
                 "install -Dm644 Saradomin/Resources/Linux/org._2009scape.Launcher.appdata.xml /app/share/metainfo/org._2009scape.Launcher.appdata.xml"
@@ -69,12 +69,14 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.com/2009scape/Saradomin-Launcher.git",
-                    "commit": "413b62c4b0a5fdc81d7b3a680fc7296d695e0d82"
+                    "commit": "3335f58325a54a891de425792cbd441f3bc70781"
                 },
 
 
-                "saradomin-x64-sources.json",
                 "saradomin-arm64-sources.json",
+                "saradomin-x64-sources.json",
+                "manual-x64.json",
+                "manual.json",
 
                 {
                     "type": "file",

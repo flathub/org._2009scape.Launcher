@@ -1,0 +1,9 @@
+[
+    {
+        "type": "file",
+        "url": "https://www.nuget.org/api/v2/package/Microsoft.NETCore.App.Host.linux-x64/6.0.12",
+        "sha512": "9bb143b8426b219eb6f9ec2bf9c2b6eb3bfd85d00d18d365112189817a16f5c8ad5cb0aa077413dccf805b4c2dafd070ad588ac84658c9efbc25772570bc7c26",
+        "dest": "nuget-sources",
+        "dest-filename": "microsoft.netcore.app.host.linux-x64.6.0.12.nupkg"
+    }
+]

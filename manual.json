@@ -1,0 +1,30 @@
+[
+    {
+        "type": "file",
+        "url": "https://www.nuget.org/api/v2/package/Microsoft.NETCore.App.Ref/6.0.12",
+        "sha512": "acd27a7f22d3beb3fe4a1a653396c60abac6bd2eddf4f53e6c94c1a1210d32668f931c38f7dd15d737532e4465f391b1126edb6cb93f11197d7a3ec283042b2e",
+        "dest": "nuget-sources",
+        "dest-filename": "microsoft.netcore.app.ref.6.0.12.nupkg"
+    },
+    {
+        "type": "file",
+        "url": "https://www.nuget.org/api/v2/package/Microsoft.AspNetCore.App.Ref/6.0.12",
+        "sha512": "9d795bf58747b8deb8ae12a2e10c27f3f5c40b3202dcb38a45d18476df737bacb942bb019ad45cc997602a797dc4b6af6e5aecd43d0d9b9114ab8c654bf97fe1",
+        "dest": "nuget-sources",
+        "dest-filename": "microsoft.aspnetcore.app.ref.6.0.12.nupkg"
+    },
+    {
+        "type": "file",
+        "url": "https://www.nuget.org/api/v2/package/GitLabApiClient/1.8.0",
+        "sha512": "ec16668cad7534aa9bdf39cffa00a1b7e59c2a7f0f189c2eba5a2e99c76b6f6bac5cd1ae24e1b7da12ae9a178a1335922af19a6b6db29d0c83298356ce76a489",
+        "dest": "nuget-sources",
+        "dest-filename": "gitlabapiclient.1.8.0.nupkg"
+    },
+    {
+        "type": "file",
+        "url": "https://www.nuget.org/api/v2/package/Newtonsoft.Json/13.0.2",
+        "sha512": "d743ae673bac17fdbf53c05983dba2ffdb99d7e6af8cf5fe008d57aa30b6c6ca615d672c4140eec516e529eb6ad5acf29c20b5cc059c86f98c80865652acdde1",
+        "dest": "nuget-sources",
+        "dest-filename": "newtonsoft.json.13.0.2.nupkg"
+    }
+]
