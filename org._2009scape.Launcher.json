@@ -14,7 +14,7 @@
         "--share=ipc",
         "--device=dri",
         "--socket=pulseaudio",
-        "--talk-name=org.freedesktop.portal.Background",
+        "--talk-name=org.freedesktop.portal.Background:testloll",
         "--filesystem=xdg-data/2009scape",
         "--env=PATH=/usr/bin:/app/bin:/app/jre/bin"
     ],
