@@ -21,7 +21,9 @@
         {
             "name": "openjdk",
             "buildsystem": "simple",
-            "build-commands" : [ "/usr/lib/sdk/openjdk11/install.sh" ]
+            "build-commands": [
+                "/usr/lib/sdk/openjdk11/install.sh"
+            ]
         },
         {
             "name": "2009scape",
@@ -37,14 +39,16 @@
                     "type": "script",
                     "dest-filename": "2009scape-launcher",
                     "commands": [
-                          "exec 2009scape-launcher \"$@\""
+                        "exec 2009scape-launcher \"$@\""
                     ]
                 },
                 {
                     "type": "file",
-                    "url": "https://gitlab.com/2009scape/Saradomin-Launcher/-/jobs/artifacts/master/raw/Saradomin/2009scape-launcher-arm-sc?job=pack_linux_arm_sc",
+                    "url": "https://gitlab.com/2009scape/Saradomin-Launcher/-/jobs/3602367833/artifacts/raw/Saradomin/2009scape-launcher-arm-sc",
                     "sha256": "114dfc97e610e40c65954789d8a050de2841312893ba60fc97d03b634f857289",
-                    "only-arches": ["aarch64"],
+                    "only-arches": [
+                        "aarch64"
+                    ],
                     "dest-filename": "2009scape-launcher",
                     "x-checker-data": {
                         "type": "rotating-url",
@@ -53,9 +57,11 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://gitlab.com/2009scape/Saradomin-Launcher/-/jobs/artifacts/master/raw/Saradomin/2009scape-launcher-sc?job=pack_linux_sc",
+                    "url": "https://gitlab.com/2009scape/Saradomin-Launcher/-/jobs/3602367826/artifacts/raw/Saradomin/2009scape-launcher-sc",
                     "sha256": "e8d70c46b86cbdbbb8b494c3bd5af7c55826400caf5bd32410e45b63ea3ba824",
-                    "only-arches": ["x86_64"],
+                    "only-arches": [
+                        "x86_64"
+                    ],
                     "dest-filename": "2009scape-launcher",
                     "x-checker-data": {
                         "type": "rotating-url",
