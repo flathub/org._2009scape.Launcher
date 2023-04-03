@@ -80,7 +80,7 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://gitlab.com/2009scape/Saradomin-Launcher/-/raw/master/Saradomin/Resources/Linux/org._2009scape.Launcher.appdata.xml",
+                    "url": "https://gitlab.com/2009scape/Saradomin-Launcher/-/raw/e5f7d5b940a5b1e01e7d3793a2e91a69ed258e68/Saradomin/Resources/Linux/org._2009scape.Launcher.appdata.xml",
                     "sha256": "e91de8fbc043b892907c896f847c2ac09035f2601dbe2e4b379a18d0578006ac"
                 }
             ]
