@@ -6,7 +6,7 @@
     "command": "2009scape-launcher",
     "separate-locales": false,
     "sdk-extensions": [
-        "org.freedesktop.Sdk.Extension.openjdk11",
+        "org.freedesktop.Sdk.Extension.openjdk11"
     ],
     "finish-args": [
         "--share=network",
