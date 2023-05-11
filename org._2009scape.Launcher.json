@@ -1,13 +1,12 @@
 {
     "id": "org._2009scape.Launcher",
-    "runtime": "org.freedesktop.Platform",
+    "runtime": "org.freedesktop.Platform.GL.mesa-git",
     "runtime-version": "22.08",
     "sdk": "org.freedesktop.Sdk",
     "command": "2009scape-launcher",
     "separate-locales": false,
     "sdk-extensions": [
         "org.freedesktop.Sdk.Extension.openjdk11",
-        "org.freedesktop.Platform.GL.mesa-git"
     ],
     "finish-args": [
         "--share=network",
