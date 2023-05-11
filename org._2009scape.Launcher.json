@@ -6,7 +6,8 @@
     "command": "2009scape-launcher",
     "separate-locales": false,
     "sdk-extensions": [
-        "org.freedesktop.Sdk.Extension.openjdk11"
+        "org.freedesktop.Sdk.Extension.openjdk11",
+        "org.freedesktop.Platform.GL.mesa-git"
     ],
     "finish-args": [
         "--share=network",
