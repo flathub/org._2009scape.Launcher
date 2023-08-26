@@ -44,7 +44,7 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://gitlab.com/2009scape/Saradomin-Launcher/-/jobs/4959478698/artifacts/raw/Saradomin/2009scape-launcher-arm-sc",
+                    "url": "https://gitlab.com/2009scape/Saradomin-Launcher/-/jobs/4959925710/artifacts/raw/Saradomin/2009scape-launcher-arm-sc",
                     "sha256": "a6efbcd5dc05fff9fa98beee90cbcca6ac473de362c45474304334e8b590e3ee",
                     "only-arches": [
                         "aarch64"
@@ -57,7 +57,7 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://gitlab.com/2009scape/Saradomin-Launcher/-/jobs/4959478696/artifacts/raw/Saradomin/2009scape-launcher-sc",
+                    "url": "https://gitlab.com/2009scape/Saradomin-Launcher/-/jobs/4959925708/artifacts/raw/Saradomin/2009scape-launcher-sc",
                     "sha256": "594f3f7fb3d551c5f61a118bcccf1d623adb71eba86b6e7c25ecae7d5663b401",
                     "only-arches": [
                         "x86_64"
