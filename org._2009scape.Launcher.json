@@ -80,8 +80,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://gitlab.com/2009scape/Saradomin-Launcher/-/raw/e5f7d5b940a5b1e01e7d3793a2e91a69ed258e68/Saradomin/Resources/Linux/org._2009scape.Launcher.appdata.xml",
-                    "sha256": "e91de8fbc043b892907c896f847c2ac09035f2601dbe2e4b379a18d0578006ac"
+                    "url": "https://gitlab.com/2009scape/Saradomin-Launcher/-/raw/c7dd57e8cd2aec1a2c7030bce82c5b7b739444b3/Saradomin/Resources/Linux/org._2009scape.Launcher.appdata.xml",
+                    "sha256": "c1a76e2d3867f9a4d6a0bfeb914d9eb2d5ba4925f97f87ceabcab7bd522e5253"
                 }
             ]
         }
