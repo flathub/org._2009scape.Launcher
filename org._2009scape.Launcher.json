@@ -14,7 +14,6 @@
         "--share=ipc",
         "--device=dri",
         "--socket=pulseaudio",
-        "--filesystem=xdg-data/2009scape",
         "--env=PATH=/usr/bin:/app/bin:/app/jre/bin"
     ],
     "modules": [
@@ -37,8 +36,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/lsof-org/lsof",
-                    "commit": "2015d742527ebdded8c5694edcf3ac2a01ce76ab",
-                    "tag": "4.99.0",
+                    "commit": "2e4c7a1a9bc7258dc5b6a3ab28ebca44174279a8",
+                    "tag": "4.99.3",
                     "x-checker-data": {
                         "type": "json",
                         "url": "https://api.github.com/repos/lsof-org/lsof/releases/latest",
@@ -66,8 +65,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://gitlab.com/2009scape/Saradomin-Launcher/-/jobs/5569683415/artifacts/raw/Saradomin/2009scape-launcher-arm-sc",
-                    "sha256": "95ac0fc985be7ac60ab2744ce709ce61df9f5b6fbca031e2c0841c21c5882815",
+                    "url": "https://gitlab.com/2009scape/Saradomin-Launcher/-/jobs/5869497117/artifacts/raw/Saradomin/2009scape-launcher-arm-sc",
+                    "sha256": "1dca6a6f0d7a2a1bd4af8d289403fec80860e1b6fc0537d757b544cdf87a3897",
                     "only-arches": [
                         "aarch64"
                     ],
@@ -79,8 +78,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://gitlab.com/2009scape/Saradomin-Launcher/-/jobs/5569683413/artifacts/raw/Saradomin/2009scape-launcher-sc",
-                    "sha256": "cf455e3451780ab337f3e62254c8d9136185118f0302e492b0208c9ae45a52a6",
+                    "url": "https://gitlab.com/2009scape/Saradomin-Launcher/-/jobs/5869497096/artifacts/raw/Saradomin/2009scape-launcher-sc",
+                    "sha256": "d5c5abb4863fbd93dd60e3fc3287459483a09f96e439086b24d12db18d94e2ef",
                     "only-arches": [
                         "x86_64"
                     ],
